@@ -7,7 +7,7 @@ services:
     working_dir: '/tmp/work'
     volumes:
       - type: bind
-        source: ../python/src
+        source: ../python
         target: /tmp/work
     stdin_open: true
     tty: true
